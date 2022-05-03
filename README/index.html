@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="readme_files/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+<body>
+<div class="container">
+<h1 class="center">Documentation</h1>	
+			
+<hr>
+
+<!-- menu -->
+<h2 id="toc" class="alt">Table of Contents</h2>
+<ol class="alpha">
+<li><a href="#structure">Project Structure</a></li>
+<li><a href="#libraries">Including Libraries</a></li>
+<li><a href="#google">AdMob and Google Play Game Services</a></li>
+</ol>
+		
+<!-- structure -->
+<hr><h3 id="structure"><strong>A) Project Structure</strong> - <a href="#toc">top</a></h3>
+<p>Android projects are the projects that eventually get built into an .apk file that you install onto a device. They contain things such as application source code and resource files. Some are generated for you by default, while others should be created if required. The following directories and files comprise an <b>Android project in Eclipse</b>:</p>
+<img src="pro.png" />
+
+<br><br>
+
+<ul>
+<li><b>src</b> - Source code files.</li>
+<li><b>assets</b> - Files that you save here are compiled into an .apk file as-is.</li>
+<li><b>res</b> - Contains application resources, such as drawable files, layout files, and string values.</li>
+<li><b>AndroidManifest.xml</b> - The control file that describes the nature of the application and each of its components.</li>
+</ul>
+
+<!-- Including Libraries -->
+<hr><h3 id="libraries"><strong>B) Including Libraries</strong> - <a href="#toc">top</a></h3>
+<p>First of all you need to import <b>google-play-services_lib</b> as a project into Eclipse Workspace. Then make it as library:</p>
+<img src="config1.png" /><br><br>
+
+<p>Then import <b>BaseGameUtils</b> as a project into Eclipse Workspace.<br>
+Make it as library too and add link to already added <b>google-play-services_lib</b> library:</p>
+<img src="config2.png" /><br><br>
+
+<p>In properties of main project add links to <b>BaseGameUtils</b> library and <b>google-play-services_lib</b> library:</p>
+<img src="config3.png" /><br><br>
+
+<!-- google -->
+<hr><h3 id="google"><strong>C) AdMob and Google Play Game Services</strong> - <a href="#toc">top</a></h3>
+<p>AdMob Smart Banner, AdMob Interstitial and Google Play Game Services were integrated.<br>
+You can configure all in file <b>/res/values/strings.xml</b></p>
+<img src="google1.png" /><br><br>
+<p>If you don't need AdMob at all you can disable it. Find file <b>/src/com/oldenweb/{APP NAME}/Main.java</b> and write "<b>false</b>" in two places:</p>
+<img src="google2.png" /><br><br>
+
+<!-- footer -->	
+<hr><p>Good Luck!</p> 
+<p><a href="#toc">Go To Table of Contents</a></p>
+<hr class="space">
+</div><!-- end div .container -->
+
+</body>
+</html>

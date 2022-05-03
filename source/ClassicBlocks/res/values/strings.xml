@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Classic Blocks</string>
+    <string name="btn_leaderboard">LEADERBOARD</string>
+    <string name="btn_start">PLAY</string>
+    <string name="btn_start2">PLAY AGAIN</string>
+    <string name="btn_exit">QUIT</string>
+    <string name="btn_home">HOME</string>
+    <string name="btn_sound">SOUND</string>
+    <string name="btn_mute">MUTE</string>
+    <string name="btn_sign_in">Google+ sign in</string>
+    <string name="btn_sign_out">Google+ sign out</string>
+    <string name="score">Score:</string>
+    <string name="high_score">Your High Score:</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="blocks_color">color of blocks</string>
+        
+    <!-- Google Play Game Services App ID -->
+    <string name="app_id">199331342186</string>
+    <!-- Google Play Game Services Leaderboard ID -->
+    <string name="leaderboard_id">CgkI6s7LyOYFEAIQBw</string>
+    <!-- AdMob Smart Banner ID -->
+    <string name="adMob_smart">ca-app-pub-3310939034790481/3513231854</string>
+    <!-- AdMob Interstitial ID -->
+    <string name="adMob_interstitial">ca-app-pub-3310939034790481/3206249053</string>
+
+</resources>

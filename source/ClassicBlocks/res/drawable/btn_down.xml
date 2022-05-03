@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<!-- pressed -->
+	<item android:state_pressed="true">
+		<layer-list>
+            <item android:drawable="@drawable/down" android:top="2dp" android:right="2dp" android:bottom="2dp" android:left="2dp"/>
+            <item android:top="2dp" android:right="2dp" android:bottom="2dp" android:left="2dp">
+                <shape android:shape="oval">
+                    <solid android:color="#40000000"/>
+                </shape>
+            </item>
+        </layer-list>
+	</item>
+
+	<!-- default -->
+    <item>
+		<layer-list>
+            <item android:drawable="@drawable/down"/>
+        </layer-list>
+    </item>
+    
+</selector>
